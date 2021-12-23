@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div#root{
+    @apply w-10/12 m-auto;
+}
+
+.btn {
+    @apply text-base font-medium rounded-lg p-3;
+}
+
+.btn--primary {
+    @apply bg-sky-500 text-white;
+}
+
+.btn--secondary {
+    @apply bg-gray-100 text-gray-900;
+}
+
+img {
+    @apply h-12 object-scale-down;
+}
+
+ul.flx {
+    @apply flex w-10/12 m-auto;
+}
+
+ul.flx li{
+    @apply flex-1;
+}
